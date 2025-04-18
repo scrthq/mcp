@@ -12,6 +12,10 @@ repos:
     -   id: check-toml
     -   id: check-xml
     -   id: check-yaml
+        args:
+          # https://github.com/pre-commit/pre-commit-hooks/issues/701
+          # Necessary so that non-standard tags do not throw failures.
+          - '--unsafe'
     -   id: end-of-file-fixer
     -   id: destroyed-symlinks
     -   id: detect-private-key
