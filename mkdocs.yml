@@ -35,7 +35,7 @@ nav:
     - AWS Terraform MCP Server: servers/terraform-mcp-server.md
   - Samples:
     - Home: samples/index.md
-    - MCP Integration with Amazon Bedrock Knowledge Bases: samples/mcp-integration-with-kb/index.md
+    - MCP Integration with Amazon Bedrock Knowledge Bases: samples/mcp-integration-with-kb.md
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
